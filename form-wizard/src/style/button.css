@@ -1,0 +1,27 @@
+.btn {
+  margin: 5px;
+  padding: 10px 32px;
+  border-radius: 0;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: monospace, fantasy, serif, sans-serif;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  color: #fff;
+  background-color: #444b5d;
+  border: 1px solid #444b5d;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+  width: 30vw;
+}
